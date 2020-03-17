@@ -2,7 +2,5 @@
 build-by-default: true
 branches:
 - master
-projects:
-  ArmorDurability:
-    path: ""
+projects: [ArmorDurability]
 ...
