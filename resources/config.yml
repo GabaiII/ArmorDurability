@@ -1,0 +1,25 @@
+---
+302:
+  effect:
+    16: #id effect
+      amplifier: 0 #0 = level(1) so 3 = level(4)
+      visible: false #particle
+    13: #id effect
+      amplifier: 0 #0 = level(1) so 3 = level(4)
+      visible: false #particle
+303:
+  effect:
+    11: #id effect
+      amplifier: 1 #0 = level(1) so 3 = level(4)
+      visible: false #particle
+304:
+  effect:
+    12: #id effect
+      amplifier: 0 #0 = level(1) so 3 = level(4)
+      visible: false #particle
+305:
+  effect:
+    1: #id effect
+      amplifier: 1 #0 = level(1) so 3 = level(4)
+      visible: false #particle
+...
