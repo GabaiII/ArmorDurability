@@ -36,19 +36,8 @@ class PlayerArmor implements Listener
 
             $new = $event->getNewItem();
             $old = $event->getOldItem();
-            $id = Item::fromString($this->getData()->get("item"));
             $configs = $this->getData()->getAll();
             $ids = array_keys($configs);
-
-            if($new->getId() === $id->getId() && $new->getDamage() === $id->getDamage()){
-
-                $player->setNameTagVisible(false);
-
-            } else if($old->getId() === $id->getId() && $old->getDamage() === $id->getDamage()){
-
-                $player->setNameTagVisible(true);
-
-            }
 
             if (in_array($new->getId(), $ids)) {
 
@@ -83,16 +72,6 @@ class PlayerArmor implements Listener
             }
         }
 
-        $player = $event->getEntity();
-        $new = $event->getNewItem();
-        $old = $event->getOldItem();
-
-
-        if ($player instanceof Player) {
-
-
-
-        }
     }
 
 }
